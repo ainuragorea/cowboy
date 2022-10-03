@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Cowboy</title>
@@ -108,31 +111,85 @@
  <div class="screen-three">
     <div class="wraper">
         <h2>Key features</h2>
-        <div class="cards">
-        <div class="card">
-            <img src="img/Rectangle 5.png" alt="">
-            <h3>Removable battery</h3>
-            <p>Let the battery be the only thing you carry inside for a charge. Recharged and ready to snap into place.</p>
-        </div>
+        <div class="swiper" id="cards">
+            <div class="cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 5.png" alt="">
+                    <h3>Removable battery</h3>
+                    <p>Let the battery be the only thing you carry inside for a charge. Recharged and ready to snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 6.png" alt="">
+                    <h3>Assistance</h3>
+                    <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 7.png" alt="">
+                    <h3>Wireless charging</h3>
+                    <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to  snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 6.png" alt="">
+                    <h3>Removable battery</h3>
+                    <p>Let the battery be the only thing you carry <br> inside for a charge. Recharged and ready to <br> snap into place.</p>
+                </div>
 
-        <div class="card">
-            <img src="img/Rectangle 6.png" alt="">
-            <h3>Assistance</h3>
-            <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to snap into place.</p>
-        </div>
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 5.png" alt="">
+                    <h3>Removable battery</h3>
+                    <p>Let the battery be the only thing you carry inside for a charge. Recharged and ready to snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 6.png" alt="">
+                    <h3>Assistance</h3>
+                    <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 7.png" alt="">
+                    <h3>Wireless charging</h3>
+                    <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to  snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 6.png" alt="">
+                    <h3>Removable battery</h3>
+                    <p>Let the battery be the only thing you carry <br> inside for a charge. Recharged and ready to <br> snap into place.</p>
+                </div>
 
-        <div class="card">
-            <img src="img/Rectangle 7.png" alt="">
-            <h3>Wireless charging</h3>
-            <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to  snap into place.</p>
-        </div>
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 5.png" alt="">
+                    <h3>Removable battery</h3>
+                    <p>Let the battery be the only thing you carry inside for a charge. Recharged and ready to snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 6.png" alt="">
+                    <h3>Assistance</h3>
+                    <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 7.png" alt="">
+                    <h3>Wireless charging</h3>
+                    <p>Let the battery be the only thing you carry  inside for a charge. Recharged and ready to  snap into place.</p>
+                </div>
+        
+                <div class="card swiper-slide">
+                    <img src="img/Rectangle 6.png" alt="">
+                    <h3>Removable battery</h3>
+                    <p>Let the battery be the only thing you carry <br> inside for a charge. Recharged and ready to <br> snap into place.</p>
+                </div>
+                
+            </div>
+            <div class="swiper-scrollbar"></div>
 
-        <div class="card">
-            <img src="img/Rectangle 6.png" alt="">
-            <h3>Removable battery</h3>
-            <p>Let the battery be the only thing you carry <br> inside for a charge. Recharged and ready to <br> snap into place.</p>
         </div>
-        </div>
+       
     </div>
  </div>
  <div class="screen-four">
@@ -165,28 +222,33 @@
     <div class="wraper">
         <h2>Our customers speak</h2>
         <div class="wraper-reviews">
-            <div class="reviews">
-                <div class="text-review active">
-                    <img src="img/“.svg" alt="">
-                    <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
+            <div class="swiper" id="review">
+                <div class="reviews swiper-wrapper">
+                    <div class="text-review swiper-slide" id="text">
+                        <img src="img/“.svg" alt="">
+                        <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
+                    </div>
+    
+                    <div class="text-review  swiper-slide">
+                        <img src="img/“.svg" alt="">
+                        <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
+                    </div>
+    
+                    <div class="text-review   swiper-slide">
+                        <img src="img/“.svg" alt="">
+                        <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
+                    </div>
+    
+                    <div class="text-review  swiper-slide">
+                        <img src="img/“.svg" alt="">
+                        <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
+                    </div>
+    
                 </div>
-
-                <div class="text-review">
-                    <img src="img/“.svg" alt="">
-                    <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
-                </div>
-
-                <div class="text-review">
-                    <img src="img/“.svg" alt="">
-                    <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
-                </div>
-
-                <div class="text-review">
-                    <img src="img/“.svg" alt="">
-                    <p>The nicest design possible. Whilst riding the Cowboy always and everywhere people are interested and positively surprised about the design. Nice and smooth handling and rides. </p>
-                </div>
+                
 
             </div>
+            
             <div class="authors">
                 <div class="customer active">
                     <div class="img">
@@ -376,9 +438,9 @@
 
              <div class="wrapper">
                 <div class="wraper-btn">
-                    <div class="point point_1"></div>
-                    <div class="point point_2 selected"></div>
-                    <div class="point point_3"></div>
+                    <div class="point point_1" data-image="./img/bike/black.png"></div>
+                    <div class="point point_2 selected" data-image="./img/bike/sand.png"></div>
+                    <div class="point point_3" data-image="./img/bike/green.png"></div>
                  </div>
                 <!-- <div class="btn-order">
                     <a href="#">Order now</a>

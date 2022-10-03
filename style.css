@@ -301,11 +301,23 @@ header .wraper {
     top: 0;
 }
 .screen-three .wraper {
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    width: 1240px;
 }
 .screen-three .wraper .cards {
     display: flex;
 }
+.swiper-scrollbar {
+    margin-top: 20px;
+}
+.card.swiper-slide {
+    margin-bottom: 80px;
+}
+
+#cards.swiper {
+    /* overflow: visible; */
+}
+
 
 
 .screen-three .wraper h2 {
@@ -345,7 +357,7 @@ header .wraper {
     margin-right: auto;
 }
 .screen-four .wraper {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-top: 100px;
     width: 1240px;
 }
@@ -427,17 +439,24 @@ header .wraper {
 }
 
 .reviews  .text-review {
-    display: none;
-    margin-left: 346px;
-
+    display: flex;
+    align-items: flex-start;
+}
+.reviews  .text-review img {
+    margin-right: 32px;
+}
+.wraper-reviews {
+    width: 664px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .reviews  .text-review.active {
     display: flex;
     align-items: flex-start;
     
 }
-.reviews  .text-review.active p {
-    width: 62%;
+.reviews  .text-review p {
+    
     font-family: 'Poppins', serif;
     font-size: 20px;
     font-weight: 400;
@@ -452,6 +471,7 @@ header .wraper {
 }
 .authors {
     display: flex;
+    margin-top: 40px;
 }
 
 .authors .customer.active {
@@ -460,8 +480,7 @@ header .wraper {
     width: 306px;
     height: 88px;
     border-radius: 100px;
-    margin-left: 430px;
-    margin-top: 40px;
+   
 }
 .authors .customer.active .h  {
     color: #FFFFFF;
@@ -485,6 +504,14 @@ header .wraper {
     margin-top: 56px;
     margin-right: 12px;
     margin-left: 12px;
+    background: transparent;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    margin-top: 56px;
+}
+.authors .customer:not(.active) {
+    padding-top: 16px;
 }
 
 .screen-six .wraper {
@@ -644,6 +671,7 @@ table, th, td {
     background: white;
     position: relative;
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .point.point_1 {
@@ -675,7 +703,8 @@ table, th, td {
 }
 
 .bike {
-    background: url(./img/cowboy-4-sand\ 1.png) center bottom no-repeat ;
+    background: url(./img/bike/sand.png) center bottom no-repeat;
+    background-size: 1140px auto;
     position: absolute;
     top: 0;
     right: 0;
