@@ -146,13 +146,18 @@ header .wraper {
     display: flex;
     flex-direction: column;
 }
+.screen-two .wraper {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .screen-two .wraper .block-left h2 {
     font-family: 'Poppins', serif;
     font-size: 68px;
     line-height: 72px;
     font-weight: 400;
     margin-top: 200px;
-    margin-left: 68px;
+   
     width: 35%;
 
 }
@@ -161,12 +166,12 @@ header .wraper {
     font-size: 16px;
     font-weight: 400;
     margin-top: 32px;
-    margin-left: 68px;
+    
     width: 35%;
 }
 .screen-two .wraper .block-left .block-left-two {
     display: flex;
-   margin-left: 68px;
+   
    margin-top: 44px;
 }
 .screen-two .wraper .block-left .block-left-two .btn .btn-two {
@@ -180,6 +185,9 @@ header .wraper {
     display: inline-block;
     margin-right: 32px;
 } 
+.screen-two .wraper .block-left .block-left-two .btn .btn-two:hover {
+    background: gray;
+}
 
 .screen-two .wraper .block-left .block-left-two .text-wraper-two .text-gray {
     color: gray;
@@ -212,7 +220,7 @@ header .wraper {
 .screen-two .wraper .block-right .img1 {
     position: absolute;
     top: 160px;
-    right: 446px;
+    right: 346px;
     width: 340px;
     height: 580px;
     border-radius: 24px;
@@ -221,7 +229,7 @@ header .wraper {
 .screen-two .wraper .block-right .img2 {
     position: absolute;
     top: 468px;
-    right: 230px;
+    right: 130px;
     width: 280px;
     height: 360px;
     border-radius: 24px;
@@ -230,7 +238,7 @@ header .wraper {
 .screen-two .wraper .block-right .img3 {
     position: absolute;
     top: 203px;
-    right: 100px;
+    right: 0;
     width: 280px;
     height: 360px;
     border-radius: 24px;
@@ -244,7 +252,7 @@ header .wraper {
     position: absolute;
     width: 251px;
     height: 169px;
-    right: 403px;
+    right: 303px;
     top: 190px;
 }
 
@@ -425,6 +433,26 @@ header .wraper {
 .screen-four .wraper .container .btn-marketplace .apple {
     margin-right: 12px;
 }
+
+#mobile .swiper-scrollbar {
+    margin-top: 20px;
+    
+}
+
+
+#mobile .swiper-wrapper {
+    margin-bottom: 80px;
+    
+}
+
+#mobile .swiper-pagination-bullet {
+    width: 100px;
+    height: 2px;
+    border-radius: 0;
+}
+#mobile .swiper-pagination-bullet-active {
+    background-color: #171616;
+}
 .screen-five .wraper {
     width: 1240px;
     margin-top: 100px;
@@ -553,6 +581,12 @@ header .wraper {
 
   .accordion.active {
     border-radius: 24px 24px 0 0 ;
+  }
+  .accordion img {
+    transform: rotate(180deg);
+  }
+  .accordion.active img {
+    transform: rotate(0deg);
   }
   .accordion span {
     background: linear-gradient(262.77deg, rgba(255, 255, 255, 0.074) -24.16%, rgba(255, 255, 255, 0) 109.47%), rgba(23, 22, 22, 0.2);

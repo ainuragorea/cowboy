@@ -1,0 +1,29 @@
+@media screen and (max-width: 1440px) {
+    .wraper {
+        max-width: 95%;
+    }
+    .main-screen .wraper .container .bicycle {
+        background-position-x: center;
+        background-size: 88%;
+    }
+    .screen-two .wraper .block-left h2 {
+        font-size: 66px;
+    }
+    .screen-two .wraper .block-right .img1 {
+        height: 560px;
+        width: 320px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        height: 340px;
+        width:  260px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        height: 340px ;
+        width: 260px;
+    }
+    .screen-two .wraper .block-right .btn-play-two {
+        right: 292px;
+        top: 185px;
+    }
+
+}

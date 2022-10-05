@@ -33,9 +33,54 @@ for (i = 0; i < acc.length; i++) {
       el: '.swiper-scrollbar',
     },
     slidesPerView: 3,
+    breakpoints: {
+      1290: {
+        slidesPerView: 3
+      },
+      1275: {
+        slidesPerView: 2.9
+      },
+      1200: {
+        slidesPerView: 2.8
+
+      },
+      1100: {
+        slidesPerView: 2.5
+      }, 
+      1000: {
+        slidesPerView: 2.3
+      },
+      900: {
+        slidesPerView: 2
+      },
+      800: {
+        slidesPerView: 1.8
+      },
+      700: {
+        slidesPerView: 1.6
+      },
+      600: {
+        slidesPerView: 1
+      }
+
+
+      
+    },
+    
     spaceBetween: 12,
     grabCursor: true,
     freeMode: true,
+  });
+
+  new Swiper('#mobile', {
+    // Optional parameters
+    loop: false,
+    slidesPerView: 1,
+    grabCursor:true,
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+    }
   });
 
   $('.wraper-btn .point').click(function () {
