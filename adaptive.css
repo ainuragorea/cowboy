@@ -6,7 +6,22 @@
         background-position-x: center;
         background-size: 88%;
     }
+    .screen-seven .wraper .containers .bike {
+        background-size: 88%;
+    }
     .screen-two .wraper .block-left h2 {
+        font-size: 66px;
+    }
+    .screen-three .wraper h2 {
+        font-size: 66px;
+    }
+    .screen-four .wraper .container h2 {
+        font-size: 66px;
+    }
+    .screen-five .wraper h2 {
+        font-size: 66px;
+    }
+    .screen-six .wraper h2 {
         font-size: 66px;
     }
     .screen-two .wraper .block-right .img1 {
@@ -24,6 +39,102 @@
     .screen-two .wraper .block-right .btn-play-two {
         right: 292px;
         top: 185px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .screen-four .wraper {
+        width: 100%;
+    }
+    .screen-seven .wraper .containers {
+        height: 980px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .screen-four .wraper {
+        width: 100%;
+    }
+    .screen-seven .wraper .containers {
+        height: 940px;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 376px;
+        height: 475px;
+    }
+   
+}
+
+@media screen and (max-width: 1100px) {
+    .screen-seven .wraper .containers {
+        height: 900px;
+    }
+    .screen-two .wraper .block-left h2 {
+        font-size: 60px;
+        margin-top: 154px;
+    }
+    .screen-two .wraper .block-right .img1 {
+        height: 540px;
+        width: 300px;
+        right: 324px;
+        top: 113px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        height: 320px;
+        width:  240px;
+        right: 144px;
+        top: 434px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        height: 320px ;
+        width: 240px;
+        top: 176px;
+    }
+    .screen-two .wraper .block-right .btn-play-two {
+        right: 260px;
+        top: 137px;
+    }
+    #mobile .swiper-slide img {
+        max-width: 100%;
+    }
+    /* .screen-four .wraper .container .btn-marketplace {
+        left: 70%;
+    } */
+
+    header .wraper .header-right .menu {
+        display: flex;
+        width: 35px;
+        margin-left: 20px;
+    }
+    header .wraper .header-right .menu img {
+        max-width: 100%;
+    }
+
+    header .wraper .header-left nav {
+        display: none;
+    }
+
+    header .wraper  {
+        position: relative;
+    }
+    header .wraper .header-left nav {
+        position: absolute;
+        right: 0;
+        top: 65px;
+        background-color: white;
+        width: auto;
+        border-radius: 8px;
+        padding: 10px 5%;
+        text-align: right;
+        z-index: 1;
+    }
+    header .wraper .header-left nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-left nav ul li a {
+        padding: 5px 0;
+    }
+    .header-left nav ul li a {
+        color: black;
     }
 
 }

@@ -18,6 +18,9 @@ header .wraper {
     display: flex;
     justify-content: space-between;
 }
+header .wraper .header-right .menu {
+    display: none;
+}
 .header-left .header-logo {
     padding: 32px 0;
     margin-right: 24px;
@@ -85,7 +88,6 @@ header .wraper {
     left: 0;
 }
 
-
 .main-screen .wraper .container h4 {
     font-family: 'Poppins', serif;
     font-size: 16px;
@@ -95,11 +97,14 @@ header .wraper {
 }
 
 .main-screen .wraper .container h1 {
-    font: 'Poppins', serif;
+    font-family: 'Poppins', serif;
     font-size: 100px;
     color: white;
     text-align: center;
     line-height: 112px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* .main-screen .wraper .container span {
     font: 'Poppins', serif;
@@ -203,8 +208,6 @@ header .wraper {
 .screen-two .wraper{
     height: 928px;
 }
-
-
 
 .screen-two .wraper .block-right {
     display: flex;
@@ -326,8 +329,6 @@ header .wraper {
     /* overflow: visible; */
 }
 
-
-
 .screen-three .wraper h2 {
     font-size: 68px;
     font-family: 'Poppins', serif;
@@ -353,7 +354,6 @@ header .wraper {
     font-weight: 400;
     line-height: 36px;
     margin-top: 32px;
-    
 }
 .screen-three .wraper .cards .card p {
     font-size: 16px;
@@ -374,6 +374,7 @@ header .wraper {
     line-height: 80px;
     font-family: 'Poppins', serif;
     color: #171616;
+    font-weight: 400;
 } 
 
 .screen-four .wraper .container .text-colomn {
@@ -417,18 +418,19 @@ header .wraper {
 
 .screen-four .wraper .container .text-image {
     position: absolute;
-    top: 452px;
+    top: auto;
     left: 40px;
+    bottom: 40px;
 }
 .screen-four .wraper .container .wraper-text-image {
     position: relative;
 }
 .screen-four .wraper .container .btn-marketplace {
     position: absolute;
-    top: 539px;
+    bottom: 21px;
     display: flex;
     justify-content: space-between;
-    left: 933px;
+    right: 20px;
 } 
 .screen-four .wraper .container .btn-marketplace .apple {
     margin-right: 12px;
@@ -436,13 +438,10 @@ header .wraper {
 
 #mobile .swiper-scrollbar {
     margin-top: 20px;
-    
 }
 
-
 #mobile .swiper-wrapper {
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px; 
 }
 
 #mobile .swiper-pagination-bullet {
@@ -481,7 +480,6 @@ header .wraper {
 .reviews  .text-review.active {
     display: flex;
     align-items: flex-start;
-    
 }
 .reviews  .text-review p {
     
@@ -547,7 +545,7 @@ header .wraper {
     width: 1240px;
     margin-top: 100px;
 }
-.screen-six .wraper h1 {
+.screen-six .wraper h2 {
     font-size: 68px;
     font-family: 'Poppins',serif;
     line-height: 80px;
@@ -610,7 +608,10 @@ header .wraper {
 
  table {
     width: 820px;
-    margin-left: 380px;
+    /* margin-left: 380px; */
+    margin-left: auto;
+    margin-right: 40px;
+
     
 }
 table td {
@@ -619,8 +620,9 @@ table td {
     width: 50%;
 
 }
-table, td {
+table, td, tbody, tr {
     border-collapse: collapse;
+    border: none;
 }
 
 
@@ -777,6 +779,10 @@ footer .wraper .right ul span {
 }
 footer .wraper .right ul  li {
     list-style: none;
+}
+
+#mobile .swiper-slide > img {
+    max-width: 100%;
 }
 
 

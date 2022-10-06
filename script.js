@@ -45,7 +45,7 @@ for (i = 0; i < acc.length; i++) {
 
       },
       1100: {
-        slidesPerView: 2.5
+        slidesPerView: 2.7
       }, 
       1000: {
         slidesPerView: 2.3
@@ -62,11 +62,7 @@ for (i = 0; i < acc.length; i++) {
       600: {
         slidesPerView: 1
       }
-
-
-      
     },
-    
     spaceBetween: 12,
     grabCursor: true,
     freeMode: true,
@@ -143,6 +139,39 @@ for (i = 0; i < acc.length; i++) {
       }
     },
   });
+
+  const burger = document.getElementById('burger')
+  const nav = document.getElementById('nav')
+
+  burger.addEventListener('click', function () {
+      console.log('burger.click', nav.style.display)
+      
+      if (nav.style.display === 'block') {
+          nav.style.display = 'none'
+
+      } else {
+          nav.style.display = 'block'
+
+      }
+  })
+
+  window.addEventListener('click', function($event){
+
+    // nav.style.display = 'none'
+    // console.log($event.path)
+    var clickOnBurger = false
+    $event.path.forEach(function(item) {
+        // console.log(item.id)
+        if (item.id === 'burger' ) {
+            clickOnBurger = true
+        }
+    })
+    // console.log(clickOnBurger)
+    if (clickOnBurger === false) {
+        nav.style.display = 'none'
+    } 
+} )
+
 
   
 
