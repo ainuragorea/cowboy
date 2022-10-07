@@ -45,13 +45,13 @@ for (i = 0; i < acc.length; i++) {
 
       },
       1100: {
-        slidesPerView: 2.7
+        slidesPerView: 2.8
       }, 
       1000: {
-        slidesPerView: 2.3
+        slidesPerView: 2.56
       },
       900: {
-        slidesPerView: 2
+        slidesPerView: 2.38
       },
       800: {
         slidesPerView: 1.8
