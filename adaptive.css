@@ -311,3 +311,58 @@
     }
 
 }
+@media screen and (max-width:870px) {
+    .screen-three .wraper h2 {
+        margin-top: 120px;
+        font-size: 50px;
+        line-height: 58px;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 316px;
+        height: 415px;
+    }
+    .screen-three .wraper .cards .card p {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .main-screen .wraper .container h1 {
+        font-size: 80px;
+        line-height: 88px;
+    }
+    .main-screen .wraper .container {
+        height: 590px;
+    }
+    .screen-two .wraper .block-left h2 {
+        font-size: 50px;
+        line-height: 58px;
+        margin-top: 120px;
+    }
+    .screen-two .wraper .block-left h4 {
+        margin-top: 24px;
+    }
+    .screen-two .wraper .block-right .img1 {
+        height: 270px;
+        width: 250px;
+        margin-top: 60px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        height: 270px;
+        width: 250px;
+        margin-top: 60px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        height: 270px;
+        width: 250px;
+        margin-top: 60px;
+    }
+    .screen-four .wraper .container .btn-marketplace {
+        flex-direction: column;
+    }
+    .screen-four .wraper .container .text-image h3 {
+        font-size: 20px;
+    }
+  
+}

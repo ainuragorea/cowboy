@@ -51,13 +51,16 @@ for (i = 0; i < acc.length; i++) {
         slidesPerView: 2.56
       },
       900: {
-        slidesPerView: 2.38
+        slidesPerView: 2.3
+      },
+      870: {
+        slidesPerView: 2.3
       },
       800: {
-        slidesPerView: 1.8
+        slidesPerView: 2.3
       },
       700: {
-        slidesPerView: 1.6
+        slidesPerView: 2
       },
       600: {
         slidesPerView: 1
