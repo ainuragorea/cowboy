@@ -159,7 +159,7 @@
         line-height: 68px;
     }
     .screen-two .wraper .block-left h4 {
-        margin-top: 28px;
+        margin-top: 36px;
     }
     .screen-two .wraper .block-left .block-left-two {
         margin-top: 40px;
@@ -222,20 +222,29 @@
     }
     .screen-six .wraper .accordion.active table td {
         font-size: 14px;
-
+    }
+    .screen-seven .wraper .containers {
+        height: 870px;
     }
     
 }
 @media screen and (max-width:950px) {
     .screen-two .wraper .block-left h2 {
-        margin-top: 100px;
+        margin-top: 140px;
+    }
+    .screen-two .wraper .block-right .btn-play-two {
+        display: none;
+    }
+    .screen-two .wraper .block-right {
+        display: flex;
+        justify-content: space-between;
     }
     .screen-two .wraper .block-right .img1 {
         position: initial;
-        margin-top: 48px;
+        margin-top: 80px;
         /* width: 260px;
         height: auto; */
-        margin-right: 37.5px;
+        margin-right: 0;
         width: 260px;
         height: 280px;
         
@@ -243,7 +252,7 @@
     }
     .screen-two .wraper .block-right .img2 {
         position: initial;
-        margin-top: 48px;
+        margin-top: 80px;
         /* width: 260px;
         height: auto; */
         margin-right: 0;
@@ -253,10 +262,10 @@
     }
     .screen-two .wraper .block-right .img3 {
         position: initial;
-        margin-top: 48px;
+        margin-top: 80px;
         /* width: 260px;
         height: auto; */
-        margin-right: 37.5px;
+        margin-right: 0;
         width: 260px;
         height: 280px;
         
@@ -273,6 +282,20 @@
     .screen-two .wraper .block-left h2 {
         width: 95%;
     }
+    .screen-three .wraper h2 {
+        margin-top: 140px;
+    }
+    .screen-four .wraper {
+        margin-top: 140px;
+    }
+    .screen-seven .wraper .containers {
+        height: 840px;
+    }
+    .screen-two .wraper .block-right {
+        position: initial;
+        width: 100%;
+    }
+    
 
 }
 
@@ -280,6 +303,11 @@
     .main-screen .wraper .container {
         height: 650px;
     }
-   
+    .screen-seven .wraper .containers {
+        height: 820px;
+    }
+    table {
+        width: 100%;
+    }
 
 }
