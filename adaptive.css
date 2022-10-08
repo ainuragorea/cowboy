@@ -295,8 +295,6 @@
         position: initial;
         width: 100%;
     }
-    
-
 }
 
 @media screen and (max-width:900px) {
@@ -309,7 +307,6 @@
     table {
         width: 100%;
     }
-
 }
 @media screen and (max-width:870px) {
     .screen-three .wraper h2 {
@@ -322,9 +319,8 @@
         height: 415px;
     }
     .screen-three .wraper .cards .card p {
-        width: 70%;
+        width: 80%;
     }
-
 }
 
 @media screen and (max-width:850px) {
@@ -365,4 +361,48 @@
         font-size: 20px;
     }
   
+}
+@media screen and (max-width: 800px) {
+    .main-screen .wraper .container h1 {
+        font-size: 78px;
+        line-height: 86px;
+    }
+    .main-screen .wraper .container {
+        height: 580px;
+    }
+    .screen-two .wraper .block-left h2 {
+        margin-top: 100px;
+    }
+    .screen-two .wraper .block-right .img1 {
+        height: 260px;
+        width: 240px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        height: 260px;
+        width: 240px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        height: 260px;
+        width: 240px;
+    }
+    .screen-three .wraper h2 {
+        margin-top: 100px;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 306px;
+        height: 405px;
+    }
+    /* .screen-three .wraper .cards .card p {
+        font-size: 12px;
+    } */
+    .screen-four .wraper .container .text-image h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .reviews .text-review p {
+        font-size: 18px;
+    }
+    .screen-seven .wraper .containers {
+        height: 780px;
+    }
 }

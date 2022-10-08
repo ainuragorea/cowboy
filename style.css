@@ -403,7 +403,7 @@ header .wraper .header-right .menu {
 .screen-four .wraper .container .text-image h3 {
     font-size: 28px;
     font-family: 'Poppins', serif;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 36px;
     color: white;
 
@@ -411,7 +411,7 @@ header .wraper .header-right .menu {
 .screen-four .wraper .container .text-image p {
     font-size: 14px;
     font-family: 'Poppins', serif;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 20px;
     color: white;
 }
