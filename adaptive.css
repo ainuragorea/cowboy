@@ -405,4 +405,50 @@
     .screen-seven .wraper .containers {
         height: 780px;
     }
+    .authors {
+        margin-left: 0;
+        width: 100%;
+    }
+    .wraper-reviews {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .screen-two .wraper .block-right .img1 {
+        height: 240px;
+        width: 220px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        height: 240px;
+        width: 220px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        height: 240px;
+        width: 220px;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 296px;
+        height: 395px;
+    }
+    .screen-three .wraper .cards .card p {
+        width: 80%;
+    }
+    .screen-four .wraper .container .text-colomn p:last-child {
+        padding-left: 0;
+    }
+    .screen-four .wraper .container .text-image {
+        width: 33%;
+    }
+    .screen-seven .wraper .containers {
+        height: 750px;
+    }
+    .btn-play .btn img {
+        width: 42px;
+        height: 42px;
+    }
+    .main-screen .wraper .container {
+        height: 570px;
+    }
+   
 }
