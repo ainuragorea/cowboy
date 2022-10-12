@@ -349,6 +349,9 @@
         line-height: 58px;
 
     }
+    .screen-four .wraper {
+        margin-top: 120px;
+    }
 }
 
 @media screen and (max-width:850px) {
@@ -399,6 +402,9 @@
         height: 580px;
     }
     .screen-two .wraper .block-left h2 {
+        margin-top: 100px;
+    }
+    .screen-four .wraper {
         margin-top: 100px;
     }
     .screen-two .wraper .block-right .img1 {
@@ -526,5 +532,247 @@
     }
     .screen-seven .wraper .containers {
         height: 710px;
+    }
+    .screen-two .wraper .block-left h2 {
+        margin-top: 80px;
+    }
+    .screen-three .wraper h2 {
+        margin-top: 80px;
+    }
+    .screen-four .wraper {
+        margin-top: 80px;
+    }
+    .screen-five .wraper {
+        margin-top: 80px;
+    }
+    .screen-five .wraper h2 {
+        margin-bottom: 62px;
+    }
+    .screen-six .wraper {
+        margin-top: 80px;
+    }
+    .screen-seven .wraper {
+        margin-top: 80px;
+    }
+    .screen-seven .wraper .containers {
+        height: 680px;
+    }
+    .main-screen .wraper .container h1 {
+        font-size: 70px;
+        line-height: 78px;
+    }
+    .main-screen .wraper .container h4 {
+        padding-top: 79px;
+    }
+    .screen-seven .wraper .containers h4 {
+        padding-top: 79px;
+    }
+    .main-screen .wraper .container {
+        height: 500px;
+    }
+    .header-left .header-logo .header-logo-link img {
+        height: 18px;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 276px;
+        height: 375px;
+    } 
+    .card.swiper-slide {
+        margin-bottom: 60px;
+    }  
+    table td {
+        font-size: 14px;
+    }
+    .screen-seven .wraper .containers h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-screen .wraper .container {
+        height: 470px;
+    }
+    .screen-two .wraper .block-left h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .screen-two .wraper .block-right .img1 {
+        width: 180px;
+        height: 200px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        width: 180px;
+        height: 200px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        width: 180px;
+        height: 200px;
+    }
+    .screen-three .wraper h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .screen-four .wraper .container h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .screen-four .wraper .container .text-image p {
+        font-size: 13px;
+    }
+    .screen-five .wraper h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .reviews .text-review p {
+        font-size: 16px;
+    }
+    .authors .customer.active .h h4 {
+        font-size: 18px;
+    }
+    .screen-six .wraper h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .screen-seven .wraper .containers {
+        height: 650px;
+    }
+    footer .wraper .left {
+        margin-top: 24px;
+        align-items: flex-start;
+    }
+    footer .wraper .right ul {
+        flex-direction: column;
+    }
+    footer .wraper .right ul li a {
+        padding: 4px 8px;
+    }
+  
+
+    footer .wraper .right ul span {
+        padding: 4px 8px;
+    }
+    footer .wraper .right ul {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .screen-four .wraper .container .text-colomn {
+        flex-direction: column;
+    }
+    .screen-four .wraper .container .text-colomn p:first-child {
+        margin-bottom: 20px;
+        width: 98%;
+    }
+    .screen-four .wraper .container .text-colomn p:last-child {
+        width: 98%;
+    }
+    .screen-four .wraper .container .text-image {
+        left: 20px;
+    }
+    .screen-seven .wraper .containers h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .screen-seven .wraper .containers .wrapper {
+        margin-top: 34px;
+    }
+    .screen-seven .wraper .containers {
+        height: 570px;
+    }
+    .wraper-btn {
+        padding: 12px 14px;
+    }
+    .screen-seven .wraper .containers .btn-order {
+        padding: 12px 22px;
+    }
+    .screen-two .wraper .block-right .img1 {
+        width: 160px;
+        height: 180px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        width: 160px;
+        height: 180px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        width: 160px;
+        height: 180px;
+    }
+    .screen-two .wraper .block-left h2 {
+        font-size: 40px;
+    }
+    .screen-two .wraper .block-left h4 {
+        width: 98%;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 266px;
+        height: 365px;
+    }
+}
+
+@media screen and (max-width: 500px ) {
+    .main-screen .wraper .container h1 {
+        font-size: 54px;
+        line-height: 62px;
+    }
+    .main-screen .wraper .container {
+        height: 420px;
+    }
+    .main-screen .wraper .container h4 {
+        padding-top: 59px;
+    }
+    .screen-two .wraper .block-left h4 {
+        font-size: 14px;
+    }
+    .screen-two .wraper .block-left h2 {
+        font-size: 37px;
+    }
+    .screen-two .wraper .block-right {
+        flex-direction: column;
+        align-items: center;
+    }
+    .screen-two .wraper .block-right .img1 {
+        width: 210px;
+        height: 280px;
+        margin-top: 28px;
+    }
+    .screen-two .wraper .block-right .img2 {
+        width: 210px;
+        height: 280px;
+        margin-top: 24px;
+    }
+    .screen-two .wraper .block-right .img3 {
+        width: 210px;
+        height: 280px;
+        margin-top: 24px;
+    }
+    .screen-three .wraper h2 {
+        margin-top: 60px;
+        font-size: 37px;
+    }
+    .screen-two .wraper .block-left h2 {
+        margin-top: 60px;
+        font-size: 37px;
+    }
+    .screen-four .wraper .container h2 {
+        margin-top: 60px;
+        font-size: 37px;
+    }
+    .screen-five .wraper h2 {
+        margin-top: 60px;
+        font-size: 37px;
+    }
+    .screen-six .wraper h2 {
+        margin-top: 60px;
+        font-size: 37px;
+    }
+    .screen-seven .wraper .containers h4 {
+        padding-top: 59px;
+    }
+    .screen-seven .wraper .containers {
+        height: 530px;
+    }
+    .accordion {
+        height: 85px;
     }
 }

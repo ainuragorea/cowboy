@@ -66,9 +66,19 @@ for (i = 0; i < acc.length; i++) {
       700: {
         slidesPerView: 2.18
       },
+      650: {
+        slidesPerView: 2
+      },
       600: {
-        slidesPerView: 1
+        slidesPerView: 1.9
+      },
+      550: {
+        slidesPerView: 1.8
+      },
+      500: {
+        slidesPerView: 1.7
       }
+
     },
     spaceBetween: 12,
     grabCursor: true,
