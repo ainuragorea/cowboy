@@ -77,6 +77,9 @@ for (i = 0; i < acc.length; i++) {
       },
       500: {
         slidesPerView: 1.7
+      },
+      450: {
+        slidesPerView: 1.5
       }
 
     },
