@@ -83,6 +83,9 @@ for (i = 0; i < acc.length; i++) {
       },
       400: {
         slidesPerView: 1.5
+      },
+      300: {
+        slidesPerView: 1.3
       }
 
     },
@@ -139,9 +142,9 @@ for (i = 0; i < acc.length; i++) {
   new Swiper('#review', {
     loop: false,
     slidesPerView: 1,
-    autoplay: {
-      delay: 5000,
-    },
+    // autoplay: {
+    //   delay: 5000,
+    // },
     pagination: {
       el: '.authors',
       type: 'bullets',

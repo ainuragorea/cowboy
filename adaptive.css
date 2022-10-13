@@ -923,4 +923,26 @@
     .authors .customer.swiper-pagination-bullet .img img {
         height: 36px;
     }
+    footer .wraper .right ul li a {
+        font-size: 12px;
+    }
+    footer .wraper .right ul span {
+        font-size: 12px;
+    }
+    .screen-seven .wraper .containers h1 {
+        font-size: 36px;
+    }
+    .reviews .text-review img {
+        margin-right: 20px;
+    }
+    .reviews .text-review p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .authors .customer.swiper-pagination-bullet .img img {
+        height: 32px;
+    }
+    .authors .customer.swiper-pagination-bullet.active .img img {
+        height: 36px;
+    }
 }
