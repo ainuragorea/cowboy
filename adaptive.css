@@ -587,6 +587,12 @@
         font-size: 52px;
         line-height: 60px;
     }
+    .screen-three .wraper h2 {
+        margin-bottom: 40px;
+    }
+    .screen-five .wraper h2 {
+        margin-bottom: 40px;
+    }
 }
 @media screen and (max-width: 600px) {
     .main-screen .wraper .container {
@@ -726,6 +732,9 @@
         height: 52px;
 
     }
+    .screen-four .wraper .container .text-colomn p:first-child {
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 500px ) {
@@ -818,5 +827,100 @@
     }
     #mobile .swiper-slide a img {
         height: 34px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .main-screen .wraper .container h4 {
+        font-size: 14px;
+        padding-top: 49px;
+
+    }
+    .main-screen .wraper .container h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .main-screen .wraper .container {
+        height: 360px;
+    }
+    .header-left .header-logo .header-logo-link img {
+        height: 16px;
+    }
+    .btn-play .btn img {
+        width: 40px;
+        height: 40px;
+    }
+    .btn-play .btn span {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-right: 20px;
+    }
+    .screen-two .wraper .block-left h2 {
+        font-size: 32px;
+    }
+    .screen-three .wraper h2 {
+        font-size: 32px;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 246px;
+        height: 345px;
+    }
+    .screen-three .wraper .cards .card p {
+        font-size: 14px;
+    }
+    .screen-four .wraper .container h2 {
+        font-size: 32px;
+    }
+    .screen-four .wraper .container .text-colomn p {
+        font-size: 14px;
+    }
+    .screen-five .wraper h2 {
+        font-size: 32px;
+    }
+    .authors .customer.active .h h4 {
+        font-size: 14px;
+    }
+    .authors .customer.active .img {
+        margin-left: 18px;
+    }
+    .screen-six .wraper h2 {
+        font-size: 32px;
+    }
+    .accordion {
+        font-size: 16px;
+    }
+    .screen-seven .wraper .containers h4 {
+        font-size: 14px;
+    }
+    .screen-seven .wraper .containers h1 {
+        font-size: 40px;
+    }
+    .screen-seven .wraper .containers .btn-order {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .screen-seven .wraper .containers {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .screen-two .wraper .block-left h2 {
+        font-size: 30px;
+    }
+    .main-screen .wraper .container h1 {
+        font-size: 45px;
+        line-height: 53px;
+    }
+    .main-screen .wraper .container {
+        height: 330px;
+    }
+    .screen-two .wraper .block-left .block-left-two .btn .btn-two {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .reviews .text-review img {
+        height: 28px;
+    }
+    .authors .customer.swiper-pagination-bullet .img img {
+        height: 36px;
     }
 }

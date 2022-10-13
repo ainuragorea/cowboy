@@ -79,6 +79,9 @@ for (i = 0; i < acc.length; i++) {
         slidesPerView: 1.7
       },
       450: {
+        slidesPerView: 1.6
+      },
+      400: {
         slidesPerView: 1.5
       }
 
