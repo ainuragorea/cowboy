@@ -1095,6 +1095,40 @@
         font-size: 36px;
         line-height: 44px;
     }
+    .screen-five .wraper {
+        margin-top: 40px;
+    }
+    .screen-five .wraper h2 {
+        margin-top: 0;
+    }
+    .screen-four .wraper {
+        margin-top: 50px;
+    }
+    .accordion {
+        height: 75px;
+    }
+    .screen-six .wraper {
+        margin-top: 50px;
+    }
+    .screen-six .wraper h2 {
+        margin-top: 0;
+    }
+    .screen-seven .wraper {
+        margin-top: 50px;
+    }
+    .screen-two .wraper .block-left h2 {
+        margin-top: 50px;
+    }
+    .screen-three .wraper h2 {
+        margin-top: 50px;
+    }
+    .screen-three .wraper .cards .card img {
+        width: 206px;
+        height: 305px;
+    }
+    .screen-four .wraper .container h2 {
+        margin-top: 50px;
+    }
 }
 @media screen and (max-width:320px) {
     .header-right .btn {
